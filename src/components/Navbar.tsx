@@ -16,9 +16,9 @@ const Navbar = () => {
             </div>
 
             <ul className="nav-links">
-                {/* <li><a href="#projects">Projects</a></li> */}
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                {/* <li><a href="#contact">Contact</a></li> */}
                 <li>
                     <div className="nav-contacts">
                         <a className="nav-contacts-icons" href="https://www.linkedin.com/in/ricky-c0997/" target="_blank" rel="noopener noreferrer">
@@ -30,7 +30,7 @@ const Navbar = () => {
                         <a className="nav-contacts-icons" href="https://www.steamcommunity.com/id/rikkiimaru/" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faSteam} fontSize="24px" />
                         </a>
-                        <a className="nav-contacts-icons" href="mailto:rcheung1997@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <a className="nav-contacts-icons" href="mailto:rca162@sfu.ca" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faEnvelope} fontSize="24px" />
                         </a>
                     </div>
